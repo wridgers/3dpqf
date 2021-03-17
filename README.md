@@ -16,7 +16,7 @@ Second iteration of this design afer the first version was [unceremoniously dest
 fence](images/chainlink_fence.jpg). AUW is actually a touch over 250g (I got a little carried away with reinforcements),
 but it shouldn't be difficult at all to get the weight down.
 
-- Frame: [stl](https://github.com/wridgers/3dpqf/blob/853ce7e3d206bff679461b3c3df70e9eaa053d3c/stl/4in_250g.stl)
+- Frame: [stl](https://github.com/wridgers/3dpqf/blob/06c1b586449ddb37240bc9ef3eac0a73eef0581c/stl/4in_250g.stl)
 	- PLA
 	- 100% infill
 	- 43g (£0.86)
