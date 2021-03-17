@@ -40,6 +40,10 @@ stack_mount_dia = 2 + 0.25; // M2 + tol.
 stack_bolt_head_dia = 4;
 stack_bolt_head_h = 1;
 
+battery_straps = true;
+battery_strap_width = 15;
+battery_strap_depth = 2;
+
 ////////////////////////////////////////////////////////////////////////////////
 
 include <../frame.scad>;

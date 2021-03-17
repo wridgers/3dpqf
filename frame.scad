@@ -87,5 +87,15 @@ module frame() {
                 cylinder(h=stack_bolt_head_h, r=stack_bolt_head_dia / 2);
             }
         }
+
+        if (battery_straps) {
+            // battery strap slot, x
+            translate([-body_x / 2, -battery_strap_width / 2, frame_thickness - battery_strap_depth])
+            cube([body_x, battery_strap_width, battery_strap_depth]);
+
+            // battery strap slot, y
+            translate([-battery_strap_width / 2, -body_y / 2, frame_thickness - battery_strap_depth])
+            cube([battery_strap_width, body_y, battery_strap_depth]);
+        }
     }
 };
